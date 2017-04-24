@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="worklog2xhtml.xsl"?>
+<worklog>
+  <name>Hans Muster</name>
+  <entries>
+    <entry date="2009-05-23" duration="1.5">Präsentation bei Kunde X</entry>
+    <entry date="2009-05-23" duration="3.0">Coaching des Praktikanten</entry>
+    <entry date="2009-05-23" duration="0.5">Kaffeemaschine gereinigt</entry>
+  </entries>
+</worklog>

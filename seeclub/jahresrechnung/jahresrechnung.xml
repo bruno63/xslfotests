@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bk:memberList xmlns:bk="http://www.bkaiser.com/2017/ns/seeclub">
+	<bk:date>13. April 2017</bk:date>
+	<bk:paymentDate>Ende Mai 2017</bk:paymentDate>
+	<bk:title>Mitgliederbeitrag 2017</bk:title>
+	<bk:member>
+		<bk:address>
+			<bk:name>Bruno Kaiser</bk:name>
+			<bk:street>Rainstr. 73</bk:street>
+			<bk:city>8712 Stäfa</bk:city>
+		</bk:address>
+		<bk:salutation>Lieber Bruno</bk:salutation>
+		<bk:categoryList>
+			<bk:category name="Aktive 1" amount="200.00" />
+			<bk:category name="Altherren" amount="140.00" />
+		</bk:categoryList>
+	</bk:member>
+	<bk:member>
+		<bk:address>
+			<bk:name>Barbara Kaiser</bk:name>
+			<bk:street>Rainstr. 73</bk:street>
+			<bk:city>8712 Stäfa</bk:city>
+		</bk:address>
+		<bk:salutation>Liebe Barbara</bk:salutation>
+		<bk:categoryList>
+			<bk:category name="Aktive 1" amount="200.00" />
+			<bk:category name="Garderobe" amount="20.00" />
+			<bk:category name="Getränke" amount="56.60" />
+		</bk:categoryList>
+	</bk:member>	
+</bk:memberList>

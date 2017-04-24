@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fo-helper-configuration>
+	<target-directory>/Users/bruno/proj/peax/xslfotests/helloworld/result</target-directory>
+	<output-format>text/xsl</output-format>
+	<transformer-factory>org.apache.xalan.processor.TransformerFactoryImpl</transformer-factory>
+	<formatter>fop-1.0.0.svn1141464patched</formatter>
+	<data-files>
+			<file>/Users/bruno/proj/peax/xslfotests/helloworld/helloworld.xml</file>
+	</data-files>
+	<stylesheets>
+		<stylesheet location="/Users/bruno/proj/peax/xslfotests/helloworld/helloworld.xsl"></stylesheet>
+	</stylesheets>
+	<params></params>
+</fo-helper-configuration>
