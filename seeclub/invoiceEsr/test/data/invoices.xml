@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoices>
+  <invoiceDate>13. April 2017</invoiceDate>
+  <paymentDate>Ende Mai 2017</paymentDate>
+  <title>Mitgliederbeitrag 2017</title>
+  <invoice>
+    <salutation>Lieber Bruno</salutation>
+    <categoryList>
+      <category name="Aktive 1" amount="200.00" />
+      <category name="Altherren" amount="140.00" />
+    </categoryList>
+    <esr code="10" account="80-151-4" ref="123456000000000720700509116" amount="340.00" currency="CHF">
+      <bank>
+        <name>Zürcher Kantonalbank</name>
+        <city>Zürich</city>
+        <zip>8010</zip>
+      </bank>
+      <biller>
+        <iban>CH6700700110404474176</iban>
+        <name>Seeclub Stäfa</name>
+        <city>Stäfa</city>
+        <zip>8712</zip>
+        <country>CH</country>
+      </biller>
+      <recipient>
+        <name>Bruno Kaiser</name>
+        <street-name>Rainstr.</street-name>
+        <civic-number>73</civic-number>
+        <city>Stäfa</city>
+        <zip>8712</zip>
+        <country>CH</country>
+      </recipient>
+      <payment-purpose>Rechnung Nr. 1234</payment-purpose>
+      <execution-date>2018-11-14</execution-date>
+      <custom-data>1234</custom-data>
+    </esr>
+  </invoice>
+  
+  <invoice>
+    <salutation>Liebe Barbara</salutation>
+    <categoryList>
+      <category name="Aktive 1" amount="200.00" />
+      <category name="Garderobe" amount="20.00" />
+      <category name="Getränke" amount="56.60" />
+    </categoryList>
+    <esr code="10" account="01-2345-6" ref="720700509116" amount="276.60" currency="CHF">
+      <biller>
+        <iban>CH6700700110404474176</iban>
+        <name>Seeclub Stäfa</name>
+        <city>Stäfa</city>
+        <zip>8712</zip>
+        <country>CH</country>
+      </biller>
+      <recipient>
+        <name>Barbara Kaiser-Gubelmann</name>
+        <street-name>Rainstr.</street-name>
+        <civic-number>73</civic-number>
+        <city>Stäfa</city>
+        <zip>8712</zip>
+        <country>CH</country>
+      </recipient>
+      <payment-purpose>Rechnung Nr. 2345</payment-purpose>
+      <execution-date>2018-11-14</execution-date>
+      <custom-data>2345</custom-data>
+    </esr>
+  </invoice>
+</invoices>

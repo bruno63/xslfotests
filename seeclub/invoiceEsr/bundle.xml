@@ -1,0 +1,18 @@
+<bundle xmlns="http://www.jeremias-maerki.ch/ns/osgi-bundle">
+  <name>WOD :: CH :: ESR Library</name>
+  <description>Provides an XSLT library for generating Swiss payment slips (ESR, Einzahlungsscheine mit Referenznummer).</description>
+  <symbolic-name>ch.jm.wod.esr</symbolic-name>
+  <category>WOD</category>
+  <headers>
+    <header name="Require-Capability">osgi.ee;filter:="(&amp;(osgi.ee=JavaSE)(version>=1.7))"</header>
+    <header name="XML-Catalog">/META-INF/catalog/catalog.xml</header>
+    <!-- 
+    <header name="Bundle-Activator">ch.jm.wod.ebill.source.Activator</header>
+     -->
+  </headers>
+  <imports>
+    <import match="org.osgi.framework" version="[1.6,2)"/>
+    <import match="ch.jm.util.osgi" version="[1.0.2,2)"/>
+    <import match="ch.jm.util.osgi.dm" version="[1.0.1,2)"/>
+  </imports>
+</bundle>

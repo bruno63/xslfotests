@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="ch.jm.wod.esr" default="all">
+  <property file="${basedir}\build-local.properties"/>
+  <property file="${basedir}\build.properties"/>
+  
+  <property name="wod-build.jar" value="${ant.library.dir}/wod-build-1.0.jar"/>
+  
+  <import optional="false">
+    <javaresource name="build-wod.xml">
+      <classpath location="${wod-build.jar}"/>
+    </javaresource>
+  </import>
+  
+  <target name="jar" description="Builds the main project JAR" depends="jar-dependencies">
+    <create-osgi-jar/>
+  </target>
+
+</project>
