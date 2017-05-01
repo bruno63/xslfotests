@@ -5,11 +5,12 @@
   <title>Mitgliederbeitrag 2017</title>
   <invoice>
     <salutation>Lieber Bruno</salutation>
+    <member-number>1234</member-number>
     <categoryList>
       <category name="Aktive 1" amount="200.00" />
       <category name="Altherren" amount="140.00" />
     </categoryList>
-    <esr code="10" account="80-151-4" ref="123456000000000720700509116" amount="340.00" currency="CHF">
+    <esr code="10" account="80-151-4" ref="123400000000000720700509116" amount="340.00" currency="CHF">
       <bank>
         <name>Zürcher Kantonalbank</name>
         <city>Zürich</city>
@@ -38,12 +39,13 @@
   
   <invoice>
     <salutation>Liebe Barbara</salutation>
+    <member-number>9999</member-number>
     <categoryList>
       <category name="Aktive 1" amount="200.00" />
       <category name="Garderobe" amount="20.00" />
       <category name="Getränke" amount="56.60" />
     </categoryList>
-    <esr code="10" account="01-2345-6" ref="720700509116" amount="276.60" currency="CHF">
+    <esr code="10" account="01-2345-6" ref="9999000000000720700509116" amount="276.60" currency="CHF">
       <biller>
         <iban>CH6700700110404474176</iban>
         <name>Seeclub Stäfa</name>

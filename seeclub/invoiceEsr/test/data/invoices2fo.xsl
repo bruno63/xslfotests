@@ -33,6 +33,7 @@
         <fo:block text-align="right" margin-bottom="1cm">
           <fo:external-graphic content-width="1.7in" scaling="uniform" src="url(logo100.svg)"/>
         </fo:block>
+        <fo:block>Mitglied-Nr: <xsl:value-of select="member-number" /></fo:block>
         <fo:block><xsl:value-of select="esr/recipient/name"/></fo:block>
         <fo:block>
           <xsl:value-of select="esr/recipient/street-name"/>

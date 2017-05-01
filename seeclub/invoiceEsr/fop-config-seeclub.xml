@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fop>
+  <target-resolution>300</target-resolution>
+  <accessibility>false</accessibility>
+  
+  <image-loading>
+    <penalty value="INFINITE" class="org.krysalis.barcode4j.image.loader.ImageConverterBarcode2EPS"/>
+  </image-loading>
+  
+  <fonts>
+    <substitutions>
+            
+      <substitution>
+        <from font-family="OCR"/>
+        <to font-family="OCRB"/>
+      </substitution>
+    
+      <substitution>
+        <from font-family="Arial"/>
+        <to font-family="Helvetica"/>
+      </substitution>
+      <substitution>
+        <from font-family="Arial" font-weight="500..900"/>
+        <to font-family="Helvetica" font-weight="bold"/>
+      </substitution>      
+      <substitution>
+        <from font-family="sans-serif"/>
+        <to font-family="Helvetica"/>
+      </substitution>
+
+    </substitutions>
+  </fonts>
+
+  <renderers>
+    <renderer mime="application/pdf">
+      <!--pdf-a-mode>PDF/A-1b</pdf-a-mode-->
+      <fonts>
+        <font embed-url="seeclub:/fonts/OCRB10PitchBT-Regular.pfb" kerning="no">
+          <font-triplet name="OCRB" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+    
+    <renderer mime="application/postscript">
+      <language-level>3</language-level>
+      <optimize-resources>true</optimize-resources>
+      <safe-set-page-device>false</safe-set-page-device>
+      <dsc-compliant>true</dsc-compliant>
+      <fonts>
+
+        <font embed-url="seeclub:/fonts/OCRB10PitchBT-Regular.pfb" kerning="no">
+          <font-triplet name="OCRB" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B 10 BT" style="normal" weight="normal"/>
+        </font>
+        
+      </fonts>
+    </renderer>
+
+    <renderer mime="application/X-fop-print">
+      <fonts>
+        <font embed-url="seeclub:/fonts/OCRB10PitchBT-Regular.pfb" kerning="no">
+          <font-triplet name="OCRB" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B 10 BT" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+    
+    <renderer mime="application/X-fop-awt-preview">
+      <fonts>
+        <font embed-url="i-ag:/fonts/OCRB10PitchBT-Regular.pfb" kerning="no">
+          <font-triplet name="OCRB" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B 10 BT" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+    
+    <renderer mime="application/X-fop-intermediate-format">
+      <fonts>
+        <font embed-url="seeclub:/fonts/OCRB10PitchBT-Regular.pfb" kerning="no">
+          <font-triplet name="OCRB" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B" style="normal" weight="normal"/>
+          <font-triplet name="OCR-B 10 BT" style="normal" weight="normal"/>
+        </font>
+      </fonts>
+    </renderer>
+      
+  </renderers>
+</fop>
